@@ -1,0 +1,80 @@
+.jacques-francois-regular {
+  font-family: "Jacques Francois", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+}
+body {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menuField p {
+    display: inline-block;
+    margin-left: 20px;
+}
+.menuField {
+    gap: 10vw;
+}
+.mainField {
+    background-image: url("images/mainField.png");
+    display: inline;
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    left: 20vw;
+    right: 20vw;
+    top: 10vh;
+    bottom: 10vh;
+}
+.underMenuField {
+    display: inline-block;
+}
+.Chihiro {
+    position: absolute;
+    bottom: 0px;
+    left: 25vw;
+}
+.rightField {
+    position: absolute;
+    bottom: 30vh;
+    left: 40vw;
+    width: 200px;
+
+}
+.leftField {
+    margin-left: 50px;
+}
+.leftButton {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: "Jacques Francois", serif;
+    
+}
+.leftButton img {
+    vertical-align: middle;
+}
+.rightButton {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    color: black;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: "Jacques Francois", serif;
+}
+.leftButton:hover {
+    background-color: #e5d3d8;
+}
+.rightButton:hover {
+    color: #eb8373;
+}
