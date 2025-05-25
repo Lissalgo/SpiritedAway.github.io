@@ -1,0 +1,24 @@
+body {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.allStuff {
+    margin-left: 35vw;
+    margin-top: 20vh;
+    margin-right: 35vw;
+    margin-bottom: 20vh;
+}
+.texts {
+    background-color: #d8e2eb;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 2%;
+}
+body img {
+    height: 300px;
+    width: 340px;
+    margin-left: 50px;
+}
